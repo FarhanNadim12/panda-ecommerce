@@ -1,0 +1,20 @@
+.catagories{
+    border-radius: 15px;
+    padding: 0 50px;
+    
+}
+.buyNow{
+    background-image: linear-gradient(#FF589B,#FF136F);
+    color: white;
+}
+.sendBtn{
+    border: none;
+    background-image: linear-gradient(#FF589B,#FF136F);
+    height: 35px;
+    width: 80px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+footer{
+    border-radius: 25px;
+}
