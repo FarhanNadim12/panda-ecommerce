@@ -13,3 +13,11 @@ for (const btn of shoppingCardBtn) {
         event.stopPropagation();
     })
 }
+const emailInput = document.getElementById("email-input");
+emailInput.addEventListener("keyup", function (event) {
+    if (event.target.value == "Email") {
+        document.getElementById("delete-btn").removeAttribute("disabled")
+    } else {
+        document.getElementById("delete-btn").setAttribute("disabled", true)
+    }
+})
